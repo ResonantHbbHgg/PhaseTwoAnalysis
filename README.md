@@ -22,7 +22,7 @@ git cms-addpkg RecoEgamma/EgammaIsolationAlgos
 cd RecoEgamma
 git clone git@github.com:nsmith-/Phase2InterimID.git
 cd ..
-git clone git@github.com:jkiesele/PhaseTwoAnalysis.git
+git clone git@github.com:ResonantHbbHgg/PhaseTwoAnalysis.git
 cp PhaseTwoAnalysis/RecoEgammaFix/* RecoEgamma/EgammaIsolationAlgos/plugins/
 scram b -j8
 ```
